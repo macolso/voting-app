@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html data-framework="vue">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/x-icon" href="/icon/favicon.png">
+    <title>Voting App</title>
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="voting-app" v-cloak>
+        <header class="header">
+            <h1>Bozon Submissions</h1>
+            <input class="new-submission" autofocus autocomplete="off" placeholder="Add a submission" v-model="submission"
+                @keyup.enter="addSubmission">
+        </header>
+        <section class="main" v-show="submissions.length">
+            <ul class="submission-list">
+                <li class="submission" v-for="submission in submissions" :key="submission.id">
+                    <div class="view">
+                        <label>{{ submission.description }} (Votes: {{ submission.vote_count }})</label>
+                        <button class="vote-button" @click="vote(submission)">Vote</button>
+                        <button class="delete-button" @click="deleteSubmission(submission)">Delete</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <footer class="info">
+        <p>See more information about Spin at <a href="https://developer.fermyon.com">developer.fermyon.com</a></p>
+    </footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

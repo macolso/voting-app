@@ -1,0 +1,123 @@
+/* Reset CSS (Normalize.css) */
+
+/* Global styles */
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #0E092D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    color: #A87CE6;
+    width: 100%;
+}
+
+header input {
+    width: 60%;
+    max-width: 800px;
+    height: 2rem;
+    border-radius: 0.67rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #384687;
+    color: #E7D3F2;
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    color: #C5FFF1;
+}
+
+/* Main content styles */
+.main {
+    width: 100%;
+}
+
+/* Todo List styles */
+.submission-list {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submission-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+/* Adjusted background and text colors for voting submissions */
+.submission-list .voting-app {
+    width: 60%;
+    padding: 0.5rem 1rem;
+    max-width: 800px;
+    height: 3rem;
+    background-color: #14213D; /* Darker background color */
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+}
+
+/* Adjusted text color for better contrast */
+.voting-app .view label {
+    flex-grow: 1;
+    margin: 0 1rem;
+    color: #C5FFF1; /* Lighter text color */
+}
+
+/* Todo item styles */
+.submisson .view {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+}
+
+.submisson .view button {
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.submisson .view input {
+    width: 15px;
+    height: 15px;
+}
+
+.submisson .view input:checked + label {
+    text-decoration: line-through;
+}
+
+.submisson .view button svg {
+    width: 15px;
+}
+
+/* Rounded corners for first, last, and only child */
+.submisson-list .submisson:first-child {
+    border-radius: 0.67rem 0.67rem 0 0;
+}
+
+.submisson-list .submisson:last-child {
+    border-radius: 0 0 0.67rem 0.67rem;
+}
+
+.submission-list .submission:only-child {
+    border-radius: 0.67rem;
+}
+
+/* Additional styling can be added as needed */

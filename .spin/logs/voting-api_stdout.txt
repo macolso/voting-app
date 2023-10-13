@@ -1,0 +1,2 @@
+No handler for /api GET
+No handler for /api/votingsubmissions/2/vote GET

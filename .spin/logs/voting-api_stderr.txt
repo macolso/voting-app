@@ -1,0 +1,71 @@
+Handler returned an error: Expected number got []
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: Expected number got []
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: Expected a number, but got none.
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: Expected a number, but got none.
+Handler returned an error: Expected a number, but got none.
+Handler returned an error: Expected a number, but got none.
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: Expected a number, but got none.
+Handler returned an error: Expected a number, but got none.
+Handler returned an error: Expected a number, but got none.
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: missing field `vote_count` at line 1 column 2
+Handler returned an error: Expected a number, but got none.
+Handler returned an error: missing field `vote_count` at line 1 column 2

@@ -1,0 +1,14 @@
+Handler returned an error: Uncaught InternalError: Error::Io("no such table: voting_submissions")
+    at <anonymous> (script.js:413)
+    at call (native)
+    at step (script.js:393)
+    at <anonymous> (script.js)
+    at fulfilled (script.js)
+
+Handler returned an error: Uncaught InternalError: Error::Io("no such table: votingsubmission")
+    at <anonymous> (script.js:413)
+    at call (native)
+    at step (script.js:393)
+    at <anonymous> (script.js)
+    at fulfilled (script.js)
+

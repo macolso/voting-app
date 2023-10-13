@@ -1,0 +1,38 @@
+spin_manifest_version = "1"
+authors = ["Ryan Levick <me@ryanlevick.com>"]
+description = "A voting application written in spin"
+name = "voting-app"
+trigger = { type = "http", base = "/" }
+version = "0.1.0"
+
+[[component]]
+id = "voting-api"
+source = "target/wasm32-wasi/release/todo.wasm"
+allowed_http_hosts = []
+sqlite_databases = ["default"]
+[component.trigger]
+route = "/api/..."
+[component.build]
+command = "cargo build --target wasm32-wasi --release"
+watch = ["src/**/*", "Cargo.toml"]
+
+[[component]]
+source = { url = "https://github.com/fermyon/spin-fileserver/releases/download/v0.0.2/spin_static_fs.wasm", digest = "sha256:65456bf4e84cf81b62075e761b2b0afaffaef2d0aeda521b245150f76b96421b" }
+id = "fileserver"
+files = [{ source = "static", destination = "/" }]
+[component.trigger]
+route = "/..."
+
+[variables]
+sqlite_username = { required = true }
+sqlite_password = { required = true }
+
+[[component]]
+id = "sql-cli"
+source = { url = "https://github.com/karthik2804/spin-sqlite-web-cli/releases/download/v0.0.1/spin-sqlite-web-cli.wasm", digest = "sha256:e0fb024ffaa68e53118a6b45636161d2a43543cf2bd0b6d027d01a34f4ee56e4" }
+sqlite_databases = ["default"]
+[component.trigger]
+route = "/internal/sqlite/..."
+[component.config]
+sqlite_username = "macolso"
+sqlite_password = "fake_password"

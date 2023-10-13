@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS votingsubmissions (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  description TEXT NOT NULL,
+  vote_count INTEGER DEFAULT 0
+);
